@@ -1,0 +1,3 @@
+Get-WmiObject win32_baseboard | Format-List Product,Manufacturer,SerialNumber
+
+wmic baseboard get product,manufacturer,serialnumber
